@@ -19,3 +19,9 @@ Command used:
 docker build -t nginx-manoj-app .
 
 docker run -d -p 8084:80 nginx-manoj-app
+
+## Docker Hub Image
+
+docker pull nagamano/nginx-manoj-app
+
+docker run -d -p 8084:80 nagamano8244/nginx-manoj-app
